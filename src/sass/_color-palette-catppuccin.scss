@@ -2,70 +2,70 @@
 
 // Red
 $red-light: #ea999c;
-$red-dark: #e64553;
+$red-dark: #ac8a8c;
 
 // Pink
 $pink-light: #f4b8e4;
-$pink-dark: #ea76cb;
+$pink-dark: #c49ea0;
 
 // Purple
 $purple-light: #ca9ee6;
-$purple-dark: #8839ef;
+$purple-dark: #a39ec4;
 
 // Blue
 $blue-light: #8caaee;
-$blue-dark: #1e66f5;
+$blue-dark: #8a98ac;
 
 // Teal
 $teal-light: #81c8be;
-$teal-dark: #179299;
+$teal-dark: #8aacab;
 
 // Green
 $green-light: #a6d189;
-$green-dark: #40a02b;
+$green-dark: #8aac8b;
 
 // Yellow
 $yellow-light: #e5c890;
-$yellow-dark: #df8e1d;
+$yellow-dark: #ceb188;
 
 // Orange
 $orange-light: #ef9f76;
-$orange-dark: #fe640b;
+$orange-dark: #c6a679;
 
 // Grey
-$grey-050: #eff1f5;
-$grey-100: #e6e9ef;
-$grey-150: #dce0e8;
-$grey-200: #ccd0da;
-$grey-250: #bcc0cc;
-$grey-300: #acb0be;
-$grey-350: #9ca0b0;
-$grey-400: #8c8fa1;
-$grey-450: #7c7f93;
-$grey-500: #6c6f85;
-$grey-550: #5c5f77;
-$grey-600: #4c4f69;
-$grey-650: #303446;
-$grey-700: #292c3c;
-$grey-750: #24273a;
-$grey-800: #232634;
-$grey-850: #1e1e2e;
-$grey-900: #181825;
-$grey-950: #11111b;
+$grey-050: #f0f0f0; // text
+$grey-100: #e0e0e0; // subtext1
+$grey-150: #d3d3d3; // interpolated between subtext1 and subtext0
+$grey-200: #c6c6c6; // subtext0
+$grey-250: #b7b7b7; // interpolated
+$grey-300: #a8a8a8; // overlay2
+$grey-350: #9c9c9c; // interpolated
+$grey-400: #8d8d8d; // overlay1
+$grey-450: #7f7f7f; // interpolated
+$grey-500: #6f6f6f; // overlay0
+$grey-550: #616161; // interpolated
+$grey-600: #525252; // surface2
+$grey-650: #454545; // interpolated
+$grey-700: #393939; // surface1
+$grey-750: #2e2e2e; // interpolated
+$grey-800: #262626; // surface0
+$grey-850: #1c1c1c; // interpolated
+$grey-900: #0b0b0b; // mantle
+$grey-950: #000000; // crust
 
 // White
-$white: #eff1f5;
+$white: #f0f0f0;
 
 // Black
-$black: #11111b;
+$black: #161616;
 
 // Button
-$button-close: if($variant == 'light', $red-dark, $red-light);
-$button-max: if($variant == 'light', $green-dark, $green-light);
-$button-min: if($variant == 'light', $yellow-dark, $yellow-light);
+$button-close: if($variant == "light", $red-dark, $red-light);
+$button-max: if($variant == "light", $green-dark, $green-light);
+$button-min: if($variant == "light", $yellow-dark, $yellow-light);
 
 // Link
-$links: if($variant == 'light', #04a5e5, #99d1db);
+$links: if($variant == "light", $blue-dark, $blue-light);
 
 // Theme
 $default-light: $blue-light;
