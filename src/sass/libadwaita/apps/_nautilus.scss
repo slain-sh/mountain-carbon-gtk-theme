@@ -67,7 +67,7 @@
 
 #NautilusQueryEditor { // search entry
   > menubutton {
-    margin: $base_padding 0;
+    margin: 2px 0;
 
     > button.image-button {
       min-width: 16px;
@@ -78,7 +78,7 @@
 }
 
 #NautilusPathBar {
-  background-color: gtkalpha(currentColor, 0.05);
+  background-color: $button_color;
   border-radius: $button_radius;
   padding: 0;
 
