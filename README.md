@@ -1,6 +1,7 @@
-## Colloid gtk theme
+## Mountain Carbon GTK Theme
+> This isn't mine, it's a fork of [Colloid GTK Theme](https://github.com/vinceliuice/Colloid-gtk-theme) patched with the [mountain](https://github.com/mountain-theme/Mountain) colorscheme
 
-![Colloid](colloid.png?raw=true)
+![Preview](mountain.png?raw=true)
 
 ## Requirements
 
@@ -16,8 +17,7 @@
 - `Icon theme` [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 
 ## Donate
-
-If you like my project, you can buy me a coffee:
+Support the original author of Colloid GTK Theme!
 
 <span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
 
@@ -78,14 +78,6 @@ sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override -
 ```
 
 If you use flatpak apps, you can run this to fix theme issue
-
-### ColorSchemes
-
-![colorschemes](colorschemes.png?raw=true)
-
-### Tweaks
-
-![tweaks](tweaks.png?raw=true)
 
 ### Flatpak Installation (gtk-3.0)
 
